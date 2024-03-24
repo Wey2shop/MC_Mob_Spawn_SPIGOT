@@ -1,0 +1,9 @@
+name: Speak
+version: 1.0.0
+main: me.rob.speak.Speak
+api-version: 1.17 # Replace with the appropriate Bukkit/Spigot API version
+
+commands:
+  spawnentity:
+    description: Spawns an entity
+    usage: /spawnentity <entityType>
