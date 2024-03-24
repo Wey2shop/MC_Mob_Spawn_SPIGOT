@@ -22,7 +22,8 @@ To install this plugin on your Spigot server, follow these steps:
 - **4:** Not limited to Custome entities Can be used for any other command in the game.
 
 ## Usage
-Once the plugin is installed and loaded on your Spigot server, you can access its features in-game ny using /UW. Here are some examples:
+Once the plugin is installed and loaded on your Spigot server, you can access its features in-game ny using /UW.
+-Here are some examples:
 
 -`/UW 1` summon the first entity saved in the UW/entities.yml file
 -`/UW 2` summon the secound entity saved in the UW/entities.yml file
@@ -30,7 +31,8 @@ Once the plugin is installed and loaded on your Spigot server, you can access it
 And so on.. 
 
 ## Configuration
-The plugin provides a configuration file (`entities.yml`) this allows you to customize the abreviated commands and assign new entity variations.
+The plugin provides a configuration file (`entities.yml`) this allows you to customize the abreviated commands
+and assign new entity variations.
 
 To make changes to the configuration, follow these steps:
 
