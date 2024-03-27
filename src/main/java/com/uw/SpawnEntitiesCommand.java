@@ -40,11 +40,14 @@ public class SpawnEntitiesCommand implements CommandExecutor {
         String summonCommand = config.getString("entities." + entityTypeArg);
 
         // Execute the summon command
-        player.performCommand(summonCommand);
+        //player.performCommand(summonCommand);
+        player.getServer().dispatchCommand(player, summonCommand);
 
         // Debug lines
-        player.sendMessage("Summoning entity type: " + entityTypeArg);
-        player.sendMessage("Summon command: " + summonCommand);
+        //player.sendMessage("Summoning entity type: " + entityTypeArg);
+        //player.sendMessage("Summon command: " + summonCommand);
+        System.out.println("Summoning entity type: " + entityTypeArg);
+        System.out.println("Summon command: " + summonCommand);
 
         return true;
     }
